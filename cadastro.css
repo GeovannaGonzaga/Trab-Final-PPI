@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(214, 232, 247);
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    width: 100%; height: 100%; background-color:rgb(214, 232, 247);
+}
+.home img{
+    width: 7%; height: 100%; margin-left: 47%;
+}
+
+
+.telalogin{
+    margin: auto; margin-top: 2%; height: 100%; width: 35%; background-color:rgb(214, 232, 247);
+}
+.login{
+    width: 100%; height: 100%; 
+}
+.login p{
+    color: #127dbb ; font-size:30px;  margin-left: 40%; margin-right: 40%; padding-bottom: 1%; ; margin-top: 7%;
+}
+.telalogin p{
+    margin-bottom: 0ch; font-size: 15px; margin-left: 1%; color:rgb(90, 90, 90);
+}
+.telalogin button{
+    width: 100%;
+}
+.cadastro{
+    width: 100%; height: 100%; 
+}
+.cadastro p{
+    color: #127dbb; font-size:30px; margin: auto; width: 100%; margin-top: 3%; margin-left: 40%; margin-right: 40%;
+}
+
+
+.telacadastro{
+    margin: auto; margin-top: 3%; height: 100%; width: 35%; background-color:rgb(214, 232, 247);
+}
+.telacadastro img{
+    margin-bottom: 3%;
+}
+.tamanho-imagens{
+    width: auto;
+}
+.telacadastro p{
+    margin-bottom: 0ch; font-size: 15px; margin-left: 1%; color:rgb(90, 90, 90);
+}
+.telacadastro button{
+    width: 100%;
+}
+.flexRadioDefault1{
+    width: 30%;
+    margin-left: 8%;
+}
+.flexRadioDefault2{
+    width: 30%;
+}
+.flexRadioDefault3{
+    width: 30%;
+    margin-right: 2%;
+}
+.form-select{
+    color:rgb(90, 90, 90);
+}
+
+.password a{
+    color: rgb(90, 90, 90); margin-left: 75%;
+}
+.password label{
+    color: rgb(90, 90, 90);
+}
+
+.Register{
+    margin-top: 7%; margin-left: 25%; margin-right: 25%;
+}
