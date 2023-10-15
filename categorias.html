@@ -11,77 +11,66 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-light" style="background-color: #c8e2f8; padding-left: 5%; padding-right: 1%; width: 100%;" id="navbar">
-        <a style="font-size: 30px; color: rgb(61, 59, 59); text-decoration: none;" href="index.html">iNow!</a>
-    
-          <form class="d-flex" style="width:75%;">
-            <input class="form-control me-2"  type="search" placeholder="busque aqui o produto desejado" aria-label="Search">
-            <button class="btn btn-outline" style="background-color: #ffffff;" type="submit">search</button>
-          </form>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header border-bottom border-3 border-primary">
-              <a href="login.html" style="text-decoration: none;"><h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/pastel-glyph/40/127dbb/person-male--v2.png"/> Olá, faça seu login ou cadastre-se</h5></a>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div><br>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1">
+    <nav class="navbar navbar-light navbar-container" id="navbar">  
+      <div class="home"><a href="index.html"> <img src="imagens/logo/2-removebg-preview.png" alt="logo"></a></div>
+      <form class="d-flex form-container">
+          <input class="form-control me-2" type="search" placeholder="busque aqui o produto desejado" aria-label="Search">
+          <button class="btn btn-outline" type="submit">search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header border-bottom border-3 border-primary">
+            <a href="login.html" style="text-decoration: none;">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <img src="https://img.icons8.com/pastel-glyph/40/127dbb/person-male--v2.png"/> Olá, faça seu login ou cadastre-se
+                </h5>
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <br>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
                 <li class="nav-item">
-                  <p style="margin-bottom: 0ch; font-size: 12px; color: rgb(61, 59, 59); margin-left: 2%;">Serviços</p>
-                  <a class="nav-link active border-bottom border-top" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/fluency-systems-regular/25/127dbb/buy--v1.png"/ style="margin-right: 2%;"> Meus Pedidos</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom inline-flex" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/sale.png"/ style="margin-right: 2%;"> Meus Cupons</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/shopping-bag--v3.png"/ style="margin-right: 2%;"> Compras Anteriores</a>
-                </li>
-              </ul><br>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <p style="margin-bottom: 0ch; font-size: 12px; color: rgb(61, 59, 59); margin-left: 2%;">Sobre o app</p>
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom border-top" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios/25/127dbb/alarm.png"/ style="margin-right: 2%;"> Notificações</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios/22/127dbb/settings.png"/ style="margin-right: 2%;"> Configurações</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios/23/127dbb/rating.png"/ style="margin-right: 2%;"> Avaliações</a>
-                </li>
-              </ul><br>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <p style="margin-bottom: 0ch; font-size: 12px; color: rgb(61, 59, 59); margin-left: 2%;">Central de atendimento</p>
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom border-top" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios/24/127dbb/speech-bubble-with-dots.png"/ style="margin-right: 2%;"> Fale Conosco</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios-glyphs/22/127dbb/inspection.png"/ style="margin-right: 2%;"> Termos de Uso</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/fluency-systems-regular/22/127dbb/invite.png"/> Convide Amigos</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav justify-content-end flex-grow-1">
-                <li class="nav-item">
-                  <a class="nav-link active border-bottom" aria-current="page" href="#" style="color: #127dbb; font-size: 18px;"><img src="https://img.icons8.com/ios/22/127dbb/question-shield.png"/> Guia de Segurança</a>
-                </li>
-              </ul>
-           </div>
-         </div>
+                    <p class="Information">Serviços</p>
+
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                        <p class="Options"><img src="https://img.icons8.com/fluency-systems-regular/25/127dbb/buy--v1.png"/> Meus Pedidos</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/sale.png"> Meus Cupons</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/shopping-bag--v3.png"> Compras Anteriores</p>
+                    </a>
+
+                    <br><p class="Information">Sobre o app</p>
+
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/25/127dbb/alarm.png"> Notificações</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/22/127dbb/settings.png"> Configurações</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/23/127dbb/rating.png"> Avaliações</p>
+                    </a>
+
+                    <br><p class="Information">Central de atendimento</p>
+                    
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/24/127dbb/speech-bubble-with-dots.png"> Fale Conosco</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios-glyphs/22/127dbb/inspection.png"> Termos de Uso</p>
+                    </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/22/127dbb/question-shield.png"> Guia de Segurança</p>
+                    </a>
+                </li>      
+        </div>
     </nav>
 
       <section id="slides">
