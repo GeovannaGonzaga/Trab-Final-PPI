@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-light navbar-container" id="navbar">  
+    <nav class="navbar navbar-light navbar-container" id="navbar">
       <div class="home"><a href="index.html"> <img src="imagens/logo/2-removebg-preview.png" alt="logo"></a></div>
       <form class="d-flex form-container">
           <input class="form-control me-2" type="search" placeholder="busque aqui o produto desejado" aria-label="Search">
@@ -20,7 +20,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
       </button>
-  
+
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header border-bottom border-3 border-primary">
             <a href="login.html" style="text-decoration: none;">
@@ -35,41 +35,44 @@
             <ul class="navbar-nav justify-content-end flex-grow-1">
                 <li class="nav-item">
                     <p class="Information">Serviços</p>
-
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                        <p class="Options"><img src="https://img.icons8.com/fluency-systems-regular/25/127dbb/buy--v1.png"/> Meus Pedidos</p>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="produtos.html">
+                      <p class="Options"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/shopping-bag--v3.png"> Produtos</p>
                     </a>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                        <p class="Options"><img src="https://img.icons8.com/fluency-systems-regular/25/127dbb/buy--v1.png"/> Meu carrinho</p>
+                    </a>
+                    <!-- <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios-glyphs/22/127dbb/inspection.png"> Administração do Sistema</p>
+                    </a> -->
+                    <!-- <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
+                      <p class="Options"><img src="https://img.icons8.com/ios/23/127dbb/rating.png"> Avaliações</p>
+                    </a> -->
                     <!-- <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
                       <p class="Options"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/sale.png"> Meus Cupons</p>
                     </a> -->
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                      <p class="Options"><img src="https://img.icons8.com/pastel-glyph/25/127dbb/shopping-bag--v3.png"> Compras Anteriores</p>
-                    </a>
 
                     <br><p class="Information">Sobre o app</p>
 
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                      <p class="Options"><img src="https://img.icons8.com/ios/25/127dbb/alarm.png"> Notificações</p>
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="Sobre.html">
+                      <p class="Options"><img src="https://img.icons8.com/ios/25/127dbb/alarm.png"> Sobre Nós</p>
                     </a>
                     <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
                       <p class="Options"><img src="https://img.icons8.com/ios/22/127dbb/settings.png"> Configurações</p>
                     </a>
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                      <p class="Options"><img src="https://img.icons8.com/ios/23/127dbb/rating.png"> Avaliações</p>
-                    </a>
 
                     <br><p class="Information">Central de atendimento</p>
-                    
+
                     <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
                       <p class="Options"><img src="https://img.icons8.com/ios/24/127dbb/speech-bubble-with-dots.png"> Fale Conosco</p>
                     </a>
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                      <p class="Options"><img src="https://img.icons8.com/ios-glyphs/22/127dbb/inspection.png"> Termos de Uso</p>
+
+                    <br><p class="Information">Sair</p>
+
+                    <a class="nav-link active border-bottom border-top" aria-current="page" href="index.html">
+                      <p class="Options"><img src="https://img.icons8.com/ios/19/127dbb/exit--v1.png"/> Sair</p>
                     </a>
-                    <a class="nav-link active border-bottom border-top" aria-current="page" href="#">
-                      <p class="Options"><img src="https://img.icons8.com/ios/22/127dbb/question-shield.png"> Guia de Segurança</p>
-                    </a>
-                </li>      
+
+                </li>
         </div>
     </nav>
 
@@ -97,91 +100,31 @@
             </button>
           </div>
       </section>
-      <!-- <section class="mt-4" id="conteudo">
-        <div class="row">
-            <div class="col-md-5 col-sm-6 col-lg-3">
-                <div class="list-group ">
-                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                      Navegue no site
-                    </a>
-                    <a href="lojas.html" class="list-group-item list-group-item-action" style="font-size: 18px; color: #127dbb;"><img src="https://img.icons8.com/small/30/127dbb/shop.png"/  style="margin-right: 3%;"> Lojas Disponivéis</a>
-                    <a href="categorias.html" class="list-group-item list-group-item-action" style="font-size: 18px; color: #127dbb;"><img src="https://img.icons8.com/material/30/127dbb/shopping-basket-2.png"/  style="margin-right: 3%;"> Categorias dos Produtos</a>
-                    <br><a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                      Escolha uma opção
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action"> Todos os produtos</a>
-                    <a href="#" class="list-group-item list-group-item-action"> Mais Vendidos</a>
-                  </div><br><br>
+     <section>
+            <div class="container">
+            <h1>Sobre nós</h1><br>
+            <h2>Quem Somos</h2>
+            <a>Somos a BioSolutions, uma empresa apaixonada por proteger nosso planeta. Acreditamos que pequenas ações podem criar grandes mudanças.</a><br><br>
+            <h2>Missão e Valores</h2>
+            <a>Nossa missão é fornecer produtos ecológicos de alta qualidade. Nossos valores incluem respeito à natureza, inovação e impacto positivo na comunidade.</a><br><br>
+            <h2>Nossa Visão</h2>
+            <a>Vislumbramos um mundo em que todos vivam em harmonia com a natureza, escolhendo produtos sustentáveis e conscientes</a><br><br>
+            <h2>Nossa História</h2>
+            <a>Em 2010, um grupo de amigos preocupados com o meio ambiente decidiu criar a Ecoterra. Começamos com uma pequena loja local e um grande sonho. Nos anos seguintes, enfrentamos desafios, mas também vimos nosso impacto crescer. Expandimos para várias cidades e nos tornamos líderes no mercado de produtos ecológicos. Hoje, a BioSolutions é uma referência em sustentabilidade, com lojas em todo o país e uma loja online próspera.</a><br><br>
+            <h2>Nossa Cultura</h2>
+              
+            <a>Compromisso com a Sustentabilidade: Aqui na BioSolutions, vivemos o que pregamos. Nossas lojas são alimentadas por energia solar, e nossa equipe participa de programas de reflorestamento.</a><br>
+            <a>Dedicação da Equipe: Nossa equipe é composta por entusiastas da natureza e ativistas ambientais. Estamos comprometidos em fazer a diferença.</a><br>
+            <a>Impacto Social: Além de vender produtos ecológicos, também doamos uma porcentagem de nossos lucros para projetos de conservação e educação ambiental.</a><br><br>
+            <h2>Estratégias Sustentáveis</h2>
+              
+            <a>Produtos Ecológicos: Nossos produtos incluem roupas orgânicas, utensílios de cozinha recicláveis e produtos de limpeza biodegradáveis.</a><br>
+            <a>Inovação Ambiental: Desenvolvemos embalagens reutilizáveis e investimos em transporte sustentável para reduzir nossa pegada de carbono.</a><br>
+            <a>Conscientização e Educação: Realizamos eventos educacionais e oferecemos workshops para sensibilizar a comunidade sobre a importância da sustentabilidade.</a><br><br>
             </div>
-            <div class="col-md-7 col-sm-6 col-lg-9">
-             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row">
-                        <div class="col-lg-3">
-                          <img src="https://source.unsplash.com/1400x2350/?salad" class="d-block w-100" alt="...">
-                          <p> </p>
-                        </div>
-                        <div class="col-lg-3">
-                          <img src="https://source.unsplash.com/1400x2350/?cupcake" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                          <img src="https://source.unsplash.com/1400x2350/?food" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                          <img src="https://source.unsplash.com/1400x2350/?jacket" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?dress" class="d-block w-100" alt="...">
-                            <p> </p>
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?cellphone" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?computer" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?cake" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?beef" class="d-block w-100" alt="...">
-                            <p> </p>
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?salad" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?short" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-3">
-                            <img src="https://source.unsplash.com/1400x2350/?boots" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div> 
-        </section> -->
+        </section>
 
-         <footer><hr class="container"><p class="text-center"> ©2021 todos direitos reservados | Esse template foi feito por Bios</p><br></footer>
-        
+        <hr class="container"><p class="text-center"> ©2023 todos direitos reservados | Esse template foi feito por Bios</p><br>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
