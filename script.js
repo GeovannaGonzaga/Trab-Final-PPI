@@ -88,3 +88,33 @@ document.getElementById("close-form").addEventListener("click", function () {
   contactForm.style.display = "none";
 });
 });
+
+
+
+        function validarFormulario() {
+          var creditoDebito = document.forms["formulario"]["creditoDebito"].value;
+          var numeroCartao = document.forms["formulario"]["numeroCartao"].value;
+          var nomeTitular = document.forms["formulario"]["nomeTitular"].value;
+          var validadeCartao = document.forms["formulario"]["validadeCartao"].value;
+          var codigoSeguranca = document.forms["formulario"]["codigoSeguranca"].value;
+  
+          if (numeroCartao.length !== 16) {
+            alert("O número do cartão deve ter 16 dígitos.");
+            return;
+          }
+          if (nomeTitular.trim() === "") {
+            alert("O campo Nome do Titular não pode estar vazio.");
+            return;
+          }
+          if (!/^\d\d\/\d\d$/.test(validadeCartao)) {
+            alert("A validade do cartão deve estar no formato MM/AA.");
+            return;
+          }
+          if (!/^\d{3}$/.test(codigoSeguranca)) {
+            alert("O código de segurança deve ter 3 dígitos.");
+            return;
+          }
+  
+          // Se todos os campos estiverem corretos, o formulário pode ser enviado
+          document.getElementById("formulario").submit();
+        }
