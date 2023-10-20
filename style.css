@@ -123,3 +123,14 @@
     border-radius: 40px; /* Borda arredondada */
     text-align: left;
 }
+
+.listagem{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+  
+
+h2{
+    text-align: center;
+}
